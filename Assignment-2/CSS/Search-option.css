@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato,sans-serif;
+}
+@media only screen and (max-width:13.3in) {
+    body {
+    width: 13.3in;
+    }
+  }
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(3, 29, 34);
+    color: white;
+    z-index: 3;
+}
+
+/* Explore & seach btn position */
+.srch-exp{
+   position: relative;
+   top: 0.4rem;
+}
+
+/* to set position of header Explorer */
+.header-explor{
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.Explore-btn{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+.header-explor a{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+.search-btn{
+    position: relative;
+    top:-0.7rem;
+    left: 8rem;
+    cursor: pointer;
+}
+.time-table{
+    display: flex;
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+}
+.time-table p{
+    margin-left: 0.25rem;
+}
+
+
+/* Logo & Name */
+.logo-name{
+    display: flex;
+    align-items: center;
+    margin-left: 7.5rem;
+    cursor: pointer;
+}
+.logo-name h1{
+    font-size: clamp(20px, 2vw, 42px);
+}
+.logo-name a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.header-end{
+    display: flex;
+    justify-content: end;
+    margin-left: 15rem;   
+}
+
+.contact{
+    margin-top: 1rem;
+    font-weight: 550;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.header-end a{
+    text-decoration: none;
+    color: white;
+}
+.E-paper{
+    margin-top: 1rem;
+    font-weight: 550;
+    cursor: pointer;
+}
+.signin{
+    margin: 1rem 0 0 1.5rem;
+    font-weight: 550;
+    cursor: pointer;
+} 
+
+
+/* To set position of signup and E paper icons */
+.EPaper-signin-icon{
+    position: relative;
+    top: 0.25rem;
+}
+.subscribe{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    position: absolute;
+    bottom: 0rem;
+    left: -5rem;
+}
+ button{
+    width: 5rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav{
+    position: fixed;
+    top: 6.5rem;
+    margin-left: 11rem;
+    width:72rem;
+    height: 2.5rem;
+    overflow-x: auto;
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0 0 2rem;
+    font-weight:300;
+    font-size: 1rem;
+    font-weight: 550;
+}
+nav a:hover{
+    color: rgb(78, 78, 237);
+}
+
+.left-container{
+    background-color: #f2efefe0;
+    margin-left: 11rem;
+    padding-top: 9rem;
+    width: 14.5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.Left-container-news{
+    margin: 0 0.5rem;
+    padding: 1rem 0 0 1rem;
+}
+.Left-container hr,h3{
+    padding-left: 3.7rem;
+    display: flex;
+}
+
+/* to Control left HR tag */
+.Left-container + hr,hr,hr{
+    width: 3.25rem;
+    position: relative;
+    top: 1rem;
+    opacity: 0.8;
+}
+
+/* ancor tag just after span after latest news (in blue text)*/
+.News-title-location{
+    text-decoration: none;
+    font-weight: 500;
+    color: #5151ea;
+    font-weight: 550;
+
+}
+
+ /* to set pairing when title is large */
+.large-tittle{
+    position: relative;
+    top: 0.5rem;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    padding-right: 0.25rem;
+    padding-left: 0.2rem;
+}  
+.large-tittle a{
+    text-decoration: none;
+    color: black;
+}
+.large-tittle+P{
+    padding: 1rem 0 0 0rem;
+    opacity: 0.8;
+}
+
+.middle-container{
+    background-color: rgb(249, 246, 246);
+    width: 36rem;
+    height:100%;
+    position: relative;
+    top: -91.75rem;
+    left: 26rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-hr-tags{
+    width: 14rem;
+}
+.right-hr-tags{
+    width: 14rem;
+    position: relative;
+    top: -1rem;
+    left: 21.8rem;
+    display: flex;
+}
+.middle-container h2{
+    padding-left: 14.25rem;
+    display: flex;
+}
+
+.search-container {
+    margin-left: 2rem;
+    padding: 2.5rem 4rem;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 25rem;
+}
+
+.search-bar-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar-btn:hover {
+    background-color: #0056b3;
+}
+
+.search-container + h3{
+   font-size: 1rem;
+   display: inline;
+   position: relative;
+   left: -3rem;
+}
+
+/* show all acr btn under searchbar */
+.show-all-ancor{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 550;
+    font-size: 1rem;
+    position: relative;
+    top: -1.5rem;
+    left: 30rem;
+    
+}
+
+.middle-rect-container-news{
+    background-color:#f7f1f1da;
+    width: 34rem;
+    height: 7rem;
+    margin: 0.4rem 1rem 0 1rem;
+    border: 0.25px solid gray;
+    border-radius: 0.25rem;
+}
+.middle-rect-container-news:hover{
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    -0px 0px 3px 0px rgba(0,0,0,0.45) inset,
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45); 
+    border-radius: 0.4rem;
+}
+.middle-rect-container-news a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.middle-rect-container-news-tittle{
+    padding: 1rem;
+    width: 23rem;
+    line-height: 1.25rem;
+
+}
+.middle-rect-container-news-tittle:hover{
+    text-decoration: underline;
+}
+.middle-rect-container-news img{
+    width: 8rem;
+    height: 5rem;
+    position: relative;
+    left: 25rem;
+    bottom: 3.5rem;
+    border-radius: 4px;
+   
+}
+/* Blue highlight anchor button inside middle-rect-container-news-tittle */
+.rect-container-news-ancor{
+    position: relative;
+    top: -6.35rem;
+    left: 1.5rem;
+    color: #5151ea;
+    font-size: 1rem;
+}
+.rect-container-news-ancor + p{
+    position: relative;
+    top: -7.5rem;
+    left: 6.7rem;
+    padding-left: 0.25rem;
+}
+
+
+/* Right container news. Start from here. */
+
+.right-container{
+    background-color: rgb(255, 255, 255);
+    width: 21rem;
+    height: 100vh;
+    position:absolute;
+    top: 9.2rem;
+    right: 8rem;
+}
+
+.right-container h4{
+    padding: 0.2rem 0 0 5rem; 
+}
+.left-hr-tags-right-container{
+    width: 4.75rem;
+}
+.right-container-big-news{
+    background-color: #f7f2f2ee;
+    margin:0.5rem 0.5rem 0 0.5rem;
+    padding: 1rem 0 0 1rem;
+}
+.right-container-big-news a{
+    text-decoration: none;
+    color: black;
+}
+.right-container-big-news a:hover{
+    text-decoration: underline;
+}
+
+.right-container-big-news a img{
+    width: 90%;
+    height: auto;
+    padding: 0.25rem;
+}
+.right-container-small-news{
+    background-color: #f7f2f2ee;
+    padding:  0.5rem 0  0.5rem 1rem;
+    margin:0.5rem;
+    height: 5rem;
+    display: flex;
+}
+.right-container-small-news a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+.right-container-small-news a:hover{
+    text-decoration: underline;
+}
+
+.right-container-small-news a img{
+    width: 4.5rem;
+    height: 3.5rem;
+    position: relative;
+    right: 2rem;
+    
+}
+.tittle-right{
+    width: 80%;
+    padding: 0.25rem;
+}

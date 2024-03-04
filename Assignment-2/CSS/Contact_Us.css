@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width:13.3in) {
+    body {
+    width: 13.3in;
+    }
+  }
+header h1{
+    padding: 0 0 0.7rem 36rem;
+    border-bottom: 1px solid black;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+.back-arrow{
+    display: flex;
+    flex-direction: row;
+   position: absolute;
+   top: 1.5rem;
+   left: 2rem;
+}
+img{
+    width: 3.5rem;
+    height: 2.5rem;
+    position: relative;
+    top: 0.4rem;
+}
+.back-ground-box{
+    background-color: #02212df5;
+    width: 100%;
+    height: 22rem;
+    margin-top: 3rem;
+    display: flex;
+    
+}
+.back-ground-box h1,p{
+    color: white;
+}
+.text-side{
+    width: 50%;
+    height: 22rem;
+    padding: 5rem 0 0 15rem; 
+}
+.image-side{
+    width: 60%;
+    height: 22rem;
+    margin-bottom: 5px;
+}
+.image-side img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem 0 0 5rem;
+    margin-top: -0.4rem;
+}
+.call-box{
+    background-color:white;
+    width: 33rem;
+    height: 25rem;
+    position: relative;
+    top: -4rem;
+    left: 12.5rem;
+    border-radius: 1rem;
+    border: 0.01px solid black;
+}
+.call-box h4{
+    margin: 1rem 0 0 14.5rem ;
+}
+.call-box p{
+   padding: 2rem;
+   color: black;
+}
+.call-box a{
+   padding-left: 12.5rem;
+   font-weight: 500;
+   font-size: 1.1rem;
+}
+
+
+.chat-box{
+    background-color:white;
+    width: 33rem;
+    height: 25rem;
+    position: relative;
+    top: -29rem;
+    left: 48rem;
+    border-radius: 1rem;
+    border: 0.01px solid black;
+}
+.chat-box h4{
+    margin: 1rem 0 0 10.5rem ;
+
+}
+.chat-box p{
+    padding: 2rem;
+    color: black;
+ }
+ .chat-box button{
+    margin: 1rem 0 0 12rem;
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #0d0dfc;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ .chat-box button:hover{
+    background-color: #bfbff2;
+    color: #0d0dfc;
+    font-weight: 550;
+ }
+.call-chat-icon{
+    font-size: 4rem;
+    padding: 3rem 0 0 14rem ;
+   
+}

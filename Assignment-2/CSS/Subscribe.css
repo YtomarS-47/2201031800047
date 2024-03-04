@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width:13.3in) {
+    body {
+    width: 13.3in;
+    }
+  }
+header h1{
+    padding:  0 0 0.5rem 36rem;
+    border-bottom: 1px solid black;
+}
+
+header img{
+    width: 3.5rem;
+    height: 2.5rem;
+    position: relative;
+    top: 0.4rem;
+}
+.main-box a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.slide-bar{
+    width: 60rem;
+    height: 12rem;
+    position: absolute;
+    top: 5.5rem;
+    left: 16rem;
+    overflow:auto;
+}
+.slide-bar a{
+    display: flex;
+    width: 35%;
+    height: 10rem;
+    padding: 0.5rem 0 1rem 1rem;
+    cursor: default;
+
+}
+.slide-bar img{
+    padding-left: 1rem;
+}
+.first-plan{
+    width: 18rem;
+    height: 10rem;
+    background-color: rgba(247, 239, 228, 0.8);
+    padding: 1.5rem;
+    line-height: 1.75rem;
+    position: absolute;
+    top: 21rem;
+    left: 25rem;
+    border-radius: 5px;
+}
+.first-plan a{
+    text-decoration: none;
+    color: rgba(103, 96, 96, 0.826);
+    padding: 0 0 1rem 8rem;
+}
+.second-plan{
+    width: 18rem;
+    height: 10rem;
+    background-color: rgba(247, 239, 228, 0.8);
+    padding: 1.5rem;
+    line-height: 1.75rem;
+    position: absolute;
+    top: 21rem;
+    left: 45rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    
+}
+.plan-box img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.first-plan label{
+    width: 10rem;
+    height: 6rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.second-plan label{
+    width: 10rem;
+    height: 6rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.plan-MRP{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+}
+.plan-box ul{
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.questions-box{
+    background-color: white;
+    position: relative;
+    top: 36rem;
+    width: 44rem;
+    margin-left: 25rem;
+   
+}
+.questions-box h2{
+    padding-left:14rem;
+}
+.questions{
+    border-top: 1px solid gainsboro;
+    padding:1rem 0 0rem 0.5rem;
+    align-content: center;
+    margin-top: 0.5rem;
+
+}
+.questions .material-symbols-outlined{
+    margin-top: -1rem;
+    display: flex;
+   justify-content: end;
+   align-items: start;
+   cursor: pointer;
+}
+
+footer{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    justify-content: center;
+}
+
+footer button{
+    width: 20rem;
+    height: 2.5rem;
+    margin: 0 0 1rem 10rem;
+    background-color: rgb(37, 37, 188);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer div {
+    padding-top: 0.75rem;   
+}
